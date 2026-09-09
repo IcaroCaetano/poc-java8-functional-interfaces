@@ -15,3 +15,15 @@ functional-interfaces/
 ├── Example10BiConsumer
 └── Example11CustomFunctionalInterfac
 ````
+
+### Example 1
+
+#### Example01FunctionalInterface
+
+Outcome:
+
+````plantuml
+Addition: 15
+Subtraction: 5
+Multiplication: 50
+````
