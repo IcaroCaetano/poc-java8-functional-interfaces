@@ -30,4 +30,11 @@ Multiplication: 50
 
 ### Example 2:
 
-#### 
+#### Example02Predicate
+
+
+````plantuml
+Maria is adult
+Carlos is adult
+Ana is adult
+````
