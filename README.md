@@ -27,3 +27,7 @@ Addition: 15
 Subtraction: 5
 Multiplication: 50
 ````
+
+### Example 2:
+
+#### 

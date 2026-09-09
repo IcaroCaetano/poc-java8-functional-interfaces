@@ -21,5 +21,6 @@ public class Example01FunctionalInterface {
         System.out.println("Subtraction: " + subtraction.calculate(10, 5));
 
         System.out.println("Multiplication: " + multiplication.calculate(10, 5));
+
     }
 }
