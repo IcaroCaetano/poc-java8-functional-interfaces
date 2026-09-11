@@ -139,6 +139,15 @@ public interface UnaryOperator<T> extends Function<T, T> {
 
 A diferença está em que no unaryOperator recebe um valor de um tipo e retorna outro valor do mesmo tipo.
 
+
+Aqui:
+
+`Integer → Integer`
+
+Entrou Integer, saiu Integer.
+
+Basicamente o que o unary operator comunica é "Receba isso, transforme, mas mantenha o mesmo tipo."
+
 Saida:
 ````
 Result: 20
