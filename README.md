@@ -122,3 +122,22 @@ Hello Java 8
 |Function<T,R>|	T|	R|	apply()|
 |Consumer<T>|	T|	void|	accept()|
 |Supplier<T>|	nenhuma|	T|	get()|
+
+
+### Example Unary Operator
+
+#### Example06UnaryOperator
+
+É uma especialização de `Function`:
+
+````java
+@FunctionalInterface
+public interface UnaryOperator<T> extends Function<T, T> {
+    T apply(T t);
+}
+````
+
+Saida:
+````
+Result: 20
+````
