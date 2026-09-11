@@ -137,6 +137,8 @@ public interface UnaryOperator<T> extends Function<T, T> {
 }
 ````
 
+A diferença está em que no unaryOperator recebe um valor de um tipo e retorna outro valor do mesmo tipo.
+
 Saida:
 ````
 Result: 20
