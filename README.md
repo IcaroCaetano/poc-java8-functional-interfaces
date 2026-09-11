@@ -108,5 +108,17 @@ Essa interface excencialmente não recebe nenhum argumento, mas retorna um valor
 comportamento. Onde ela encapsula um comportamento permitindo a reutilização.
 
 Saida:
-````````
+
+````
 Hello Java 8
+````
+
+### Resumo até aqui:
+
+
+|Interface|	Entrada|	Saída|	Método|
+|---------|--------|---------|--------|
+|Predicate<T>|	T|	boolean	|test()|
+|Function<T,R>|	T|	R|	apply()|
+|Consumer<T>|	T|	void|	accept()|
+|Supplier<T>|	nenhuma|	T|	get()|
