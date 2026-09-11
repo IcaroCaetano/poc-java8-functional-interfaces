@@ -64,3 +64,38 @@ Saida:
 ````
 Name: Carlos
 ````
+
+### Example 4
+
+#### Example04Consumer
+
+O Consumer é uma interface que representa o recebimento de um argumento,
+executa uma ação e não retorna nada.
+
+```java
+Consumer<Person> printPerson = System.out::println;
+```
+
+````
+Person{name='Carlos', age=42}
+````
+
+````plantuml
+Example02Predicate
+        ↓
+T → boolean
+        ↓
+test()
+
+Example03Function
+        ↓
+T → R
+        ↓
+apply()
+
+Example04Consumer
+        ↓
+T → void
+        ↓
+accept()
+````
