@@ -99,3 +99,14 @@ T → void
         ↓
 accept()
 ````
+
+### Example Supplier
+
+#### Example05Supplier
+
+Essa interface excencialmente não recebe nenhum argumento, mas retorna um valor. Ou seja, ela representa a execução de
+comportamento. Onde ela encapsula um comportamento permitindo a reutilização.
+
+Saida:
+````````
+Hello Java 8
