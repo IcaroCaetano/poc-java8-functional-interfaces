@@ -32,6 +32,9 @@ Multiplication: 50
 
 #### Example02Predicate
 
+A vantagem do Predicate é a passagem de comportamento com argunmento. 
+O Predicate encapsula uma condição e possibilita reutilização; Além disso, ele pode ser combinado com outras 
+Predicates e reutilizado.
 
 ````plantuml
 Maria is adult
