@@ -195,3 +195,39 @@ Integer + Integer → String
 ````
 
 A Bifunction recebe dois parametros e retorna um valor;
+
+### Example BiPredicate
+
+#### Example09BiPredicate
+
+````plantuml
+true
+false
+````
+
+O BiPredicate faz uma pergunta envolvendo dois valores;
+
+|Interface|	Entradas |Retorno|	Exemplo|
+|---------|----------|-------|---------|
+|Predicate<T>|	1|	boolean|	age → age >= 18|
+|BiPredicate<T,U>|	2|	boolean|	(age,ticket) → age >= 18 && ticket|
+
+Assim como Predicate, BiPredicate possui:
+
+```
+.and()
+.or()
+.negate()
+````
+
+Por exemplo:
+````
+BiPredicate<Integer, Boolean> isAdult =
+(age, hasTicket) -> age >= 18;
+
+BiPredicate<Integer, Boolean> hasTicket =
+(age, hasTicketValue) -> hasTicketValue;
+
+BiPredicate<Integer, Boolean> canEnter =
+isAdult.and(hasTicket);
+````
