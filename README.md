@@ -152,3 +152,15 @@ Saida:
 ````
 Result: 20
 ````
+
+### Example Binary Operator 
+
+o BinaryOperator<T> adiciona dois valores de entrada
+
+#### Example07BinaryOperator
+
+Saida:
+
+````
+15
+````
