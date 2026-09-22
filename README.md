@@ -231,3 +231,14 @@ BiPredicate<Integer, Boolean> hasTicket =
 BiPredicate<Integer, Boolean> canEnter =
 isAdult.and(hasTicket);
 ````
+
+### Example Bi Consumer
+
+#### Example10BiConsumer
+
+````java
+@FunctionalInterface
+public interface BiConsumer<T, U> {
+    void accept(T t, U u);
+}
+````
