@@ -9,6 +9,6 @@ public class Example10BiConsumer {
         BiConsumer<String, Integer> printPerson = (name, age) ->
                         System.out.println(name + " - " + age);
 
-        printPerson.accept("Icaro", 44);
+        printPerson.accept("John", 40);
     }
 }
