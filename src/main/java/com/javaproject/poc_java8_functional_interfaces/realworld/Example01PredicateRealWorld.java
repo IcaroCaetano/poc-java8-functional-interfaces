@@ -19,14 +19,11 @@ public class Example01PredicateRealWorld {
         );
 
         Predicate<Customer> isEligible =
-                customer -> customer.getAge() >= 18
-                        && customer.isActive();
+                customer -> customer.getAge() >= 18 && customer.isActive();
 
-        List<Customer> eligibleCustomers =
-                filterCustomers(customers, isEligible);
+        List<Customer> eligibleCustomers = filterCustomers(customers, isEligible);
 
-        eligibleCustomers.forEach(customer ->
-                System.out.println(customer.getName()));
+        eligibleCustomers.forEach(customer -> System.out.println(customer.getName()));
     }
 
     private static List<Customer> filterCustomers(
@@ -38,3 +35,8 @@ public class Example01PredicateRealWorld {
                 .collect(Collectors.toList());
     }
 }
+
+/**
+ * Icaro
+ * Peter
+ */
