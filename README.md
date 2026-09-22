@@ -13,7 +13,7 @@ functional-interfaces/
 ├── Example08BiFunction
 ├── Example09BiPredicate
 ├── Example10BiConsumer
-└── Example11CustomFunctionalInterfac
+└── Example11CustomFunctionalInterface
 ````
 
 ### Example 1
@@ -172,3 +172,26 @@ Basicamente o BinaryOperator representa uma operação com duas 2 entradas e uma
 O Binary operator é uma especialização para o Bifunction, com a diferença que a saída será sempre do 
 mesmo tipo.
 
+### Example Bi Function
+
+#### Example08BiFunction 
+
+Saida:
+
+````
+15
+````
+
+Aqui temos:
+
+````
+Integer + Integer → Integer
+````
+
+Agora:
+
+````
+Integer + Integer → String
+````
+
+A Bifunction recebe dois parametros e retorna um valor;
