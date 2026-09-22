@@ -164,3 +164,11 @@ Saida:
 ````
 15
 ````
+
+Basicamente o BinaryOperator representa uma operação com duas 2 entradas e uma saída do mesmo tipo.
+
+`BinaryOperator<T>	2	mesmo tipo	Integer,Integer → Integer`
+
+O Binary operator é uma especialização para o Bifunction, com a diferença que a saída será sempre do 
+mesmo tipo.
+
