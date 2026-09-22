@@ -251,3 +251,16 @@ John - 40
 
 Obs:
 O método utilizado pelo BiConsumer é accept(), assim como no Consumer.
+
+### Example Custom Functional Interface
+
+#### Example11CustomFunctionalInterface
+
+Saida:
+
+````
+15
+5
+50
+
+````
