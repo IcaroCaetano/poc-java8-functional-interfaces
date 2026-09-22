@@ -12,10 +12,10 @@ public class Example01PredicateRealWorld {
     public static void main(String[] args) {
 
         List<Customer> customers = Arrays.asList(
-                new Customer("Icaro", 44, true),
-                new Customer("John", 17, true),
-                new Customer("Mary", 30, false),
-                new Customer("Peter", 25, true)
+                new Customer(0L,"Icaro", 44, true,0.0),
+                new Customer(0L,"John", 17, true,0.0),
+                new Customer(0L,"Mary", 30, false,0.0),
+                new Customer(0L,"Peter", 25, true,0.0)
         );
 
         Predicate<Customer> isEligible =
