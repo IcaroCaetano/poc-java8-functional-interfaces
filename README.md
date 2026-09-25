@@ -265,3 +265,14 @@ Saida:
 
 ````
 
+## Resumo
+
+````plantuml
+Predicate      → pergunta
+Function       → transforma
+Consumer       → executa ação
+Supplier       → fornece valor
+UnaryOperator  → transforma T → T
+BinaryOperator → combina T + T → T
+BiFunction     → trabalha com dois inputs → resultado
+````
