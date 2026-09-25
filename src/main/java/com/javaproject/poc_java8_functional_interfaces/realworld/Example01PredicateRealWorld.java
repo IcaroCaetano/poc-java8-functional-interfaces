@@ -18,8 +18,7 @@ public class Example01PredicateRealWorld {
                 new Customer(0L,"Peter", 25, true,0.0)
         );
 
-        Predicate<Customer> isEligible =
-                customer -> customer.getAge() >= 18 && customer.isActive();
+        Predicate<Customer> isEligible = customer -> customer.getAge() >= 18 && customer.isActive();
 
         List<Customer> eligibleCustomers = filterCustomers(customers, isEligible);
 
