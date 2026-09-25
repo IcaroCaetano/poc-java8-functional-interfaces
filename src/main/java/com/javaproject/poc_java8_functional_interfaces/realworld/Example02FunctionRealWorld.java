@@ -9,7 +9,7 @@ public class Example02FunctionRealWorld {
 
     public static void main(String[] args) {
 
-        Customer customer = new Customer(1, "Icaro", 44, true, 12000);
+        Customer customer = new Customer(1, "Icaro", 35, true, 12000);
 
         Function<Customer, CustomerDTO> toDTO =
                 cust -> new CustomerDTO(
