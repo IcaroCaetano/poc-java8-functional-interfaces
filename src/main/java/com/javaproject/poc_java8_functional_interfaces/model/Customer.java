@@ -8,12 +8,7 @@ public class Customer {
     private final boolean active;
     private final double monthlyIncome;
 
-    public Customer(
-            long id,
-            String name,
-            int age,
-            boolean active,
-            double monthlyIncome) {
+    public Customer(long id, String name, int age, boolean active, double monthlyIncome) {
 
         this.id = id;
         this.name = name;
