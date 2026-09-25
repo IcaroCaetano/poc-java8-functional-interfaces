@@ -11,11 +11,7 @@ public class Example02FunctionRealWorld {
 
         Customer customer = new Customer(1, "Icaro", 35, true, 120000);
 
-        Function<Customer, CustomerDTO> toDTO =
-                cust -> new CustomerDTO(
-                        cust.getId(),
-                        cust.getName()
-                );
+        Function<Customer, CustomerDTO> toDTO = cust -> new CustomerDTO(cust.getId(), cust.getName());
 
         CustomerDTO dto = toDTO.apply(customer);
 
